@@ -13,11 +13,11 @@ A general land webpage with menus. Each menu will have a general topic.
 1. React (typescript)
 2. Threejs
 3. Vite
-4. casl.js (isomorphic autorization)
-5. turso
-6. cypress
-7. jest
-9. -loopback.io (REST)-
-10. nestjs
-11. slonik
+4. Casl.js (isomorphic autorization)
+5. Turso
+6. Cypress
+7. Jest
+9. ~loopback.io (REST)~
+10. Nestjs
+11. Slonik
 12. Graphql (maybe)
