@@ -17,6 +17,7 @@ A general land webpage with menus. Each menu will have a general topic.
 5. turso
 6. cypress
 7. jest
-9. loopback.io (REST)
-10. slonik
-11. Graphql (maybe)
+9. -loopback.io (REST)-
+10. nestjs
+11. slonik
+12. Graphql (maybe)
