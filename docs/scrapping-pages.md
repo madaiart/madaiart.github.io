@@ -22,3 +22,5 @@ Here a list of pages where you can find basic information about the cars
 - marketplace :cross: the information is not consistent, so it is not possible to scrap data.
 
 ## Nuevos
+
+[here](http://localhost:4200/client/ilvqmsz9nr@activeTab=0) [here](http://localhost:4200/client/1vnixcy6kmd@activeTab=0) [here](http://localhost:4200/client/npcymji7nwh@activeTab=0)
