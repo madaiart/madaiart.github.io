@@ -43,6 +43,27 @@ async function scrapingHyundai() {
         return elements.map((element) => element.textContent?.trim());
       },
     );
+    // const km = await resultadosElement.$$eval(".sinsalto span", (elements) => {
+    //   return elements.map((element) => element.textContent?.trim());
+    // });
+
+    const placa = await resultadosElement.$$eval(
+      ".text-muted em",
+      (elements) => {
+        return elements.map((element) => element.textContent?.trim());
+      },
+    );
+
+    const year = await resultadosElement.$$eval(
+      ".badge.badge-default",
+      (elements) => {
+        return elements.map((element) => element.textContent?.trim());
+      },
+    );
+
+    const price = await resultadosElement.$$eval(".precio", (elements) => {
+      return elements.map((element) => element.textContent?.trim());
+    });
 
     // Use page.$$eval to find elements with the class "record" and extract the number.
     const recordNumber = await resultadosElement.$$eval(
@@ -54,7 +75,11 @@ async function scrapingHyundai() {
 
     // Now, 'cardTitleText' contains an array of text, and 'recordNumber' contains an array of numbers.
     console.log("Card Title Text:", cardTitleText);
-    console.log("Record Number:", recordNumber);
+    console.log("Kilometers:", recordNumber);
+
+    console.log("Placa:", placa);
+    console.log("Year:", year);
+    console.log("Price:", price);
   }
 
   //   await browser.close();
